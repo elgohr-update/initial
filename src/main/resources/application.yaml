@@ -1,0 +1,18 @@
+#Tomcat端口
+server:
+  port: 80
+  servlet:
+  #默认访问位置
+    context-path: /
+
+#静态资源
+spring:
+  resources:
+    static-locations: /**
+
+
+
+
+
+
+

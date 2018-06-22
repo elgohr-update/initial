@@ -12,6 +12,11 @@ public class IndexController {
         return "123";
     }
 
-    public String reading() { return "读取数据"; }
+    @RequestMapping(value = "")
+    public String reading() {
+        return "读取数据";
+    }
+
+
 
 }
