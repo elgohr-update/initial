@@ -11,12 +11,6 @@ public class InitialApplication {
         SpringApplication.run(InitialApplication.class , args);
     }
 
-    @Bean
-    public ResponseBodyWrapFactoryBean getResponseBodyWrap() {
-        return new ResponseBodyWrapFactoryBean();
-    }
-
-
 }
 
 
